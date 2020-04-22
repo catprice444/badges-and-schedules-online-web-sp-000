@@ -8,7 +8,7 @@ badges = []
   attendees.each do |name|
     badge_maker(badges)
   end
-  badges 
+  badges
 end
 
 def assign_rooms(attendees)
