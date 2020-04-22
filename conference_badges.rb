@@ -21,6 +21,8 @@ end
 
 def printer(attendees)
 print =[]
-  print << batch_badge_creator(attendees)
-  print << assign_rooms(attendees)
+badges_and_room_assignments.each_line do |line|
+  puts
+end
+print
 end
