@@ -21,6 +21,6 @@ end
 
 def printer(attendees)
 print =[]
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
+  print << batch_badge_creator(attendees)
+  print << assign_rooms(attendees)
 end
