@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |person|
-     returns "Hello, my name is #{person}."
+     return "Hello, my name is #{person}."
   end
 end
